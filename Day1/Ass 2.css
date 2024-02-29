@@ -1,0 +1,43 @@
+.card
+{
+    
+    width : 350px;
+    margin: 5px;
+    text-align: center;
+    padding : 5px; 
+    float: left;
+}
+
+.card  img
+{
+    width : 50px;
+    height: 50px;
+    border-radius: 100px;
+    padding : 1px;
+    border: 1px solid gray;;
+}
+
+.card img:hover
+{
+    box-shadow: 1px 1px 10px red;  
+}
+
+.email
+{
+    color : gray;
+    font-size:  8px;
+    margin: 0px;    
+} 
+.checked{
+    color: green;
+}
+.btn{
+    background-color: yellow; /* Green */
+  border: none;
+  color: black;
+
+  text-align: center;
+
+  font-size: 16px;
+}
+
