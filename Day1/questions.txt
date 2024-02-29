@@ -1,0 +1,11 @@
+What is a key in React ?
+When building lists of elements, a particular string attribute called a "key" needs to be included in React. To determine which elements in a list have been added, updated, or removed in React, keys are crucial. They provide elements in lists a distinct identity. It is advised to use a string as the key, allowing each item in the list to be individually identified. Indexes are used as keys by React by default when keys are not specifically assigned to list elements. Keys are assigned to elements inside the array to provide them a solid identification. They are essential for React to identify changes within lists effectively.
+What role do keys have in array processing?
+Keys are essential for identifying elements in arrays during array processing. An iterator object with the keys for each index in the array is returned by the JavaScript keys() method of array instances. This function iterates over an array's keys, including empty slots in sparse arrays that are represented by undefined values. The generic keys() method requires an object to contain integer-keyed attributes and a length property. While Object.keys() only contains keys that are currently in existence, keys() takes into account missing properties.
+Furthermore, with React, elements within lists must be uniquely identified by their "key" attribute when rendering again. React uses this feature to identify items of the same type among siblings when it is present. It's essential for flat lists and helps maximize efficiency for re-renders. While it is best to use unique values as keys, it is okay to use array indexes as keys in static lists when the item numbers and order don't change. Gaining insight into React's essential usage can help maximize efficiency and render lists more quickly.
+
+How to display images in react?
+import companyLogo from './path/to/logo.jpg';
+<div>
+      <img src={companyLogo} />
+    </div>
